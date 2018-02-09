@@ -1,0 +1,46 @@
+.portfolio li{
+    list-style: none;
+    display: inline-block;
+    margin-right: 10px;
+    padding: 5px 10px;
+    background-color: #edeff2;
+}
+.portfolio{
+    text-align: center;
+     font-family: 'PT Sans', sans-serif;
+     font-size: 16px;
+      margin-top: 70px;
+}
+    .portfolioContent{
+        display: grid;
+        grid-template-columns: 1fr 1fr 1fr ;
+        grid-column-gap: 10px;
+    }
+
+.portfolioContent div{
+    margin: auto;
+    text-align: center;
+}
+
+.portfolioContent div>img{
+    
+    height: 180px;
+    width: auto;
+}
+
+.portfolioContent a{
+    text-decoration: none;
+    color: #ccc;
+   
+}
+.portfolioContent h3{
+     font-weight: normal;
+    font-size: 16px;
+}
+.portfolioContent h3:hover{
+    color: red;
+}
+
+.portfolio{
+    display: none
+}
