@@ -9,7 +9,7 @@ class PortfolioTemplate extends Component {
           
         <h1>{ this.props.data.contentfulPortfolio.name} <span>{this.props.data.contentfulPortfolio.category}</span></h1>
         <img src={this.props.data.contentfulPortfolio.featuredImg.sizes.src} alt={ this.props.data.contentfulPortfolio.name} />
-        <p>{ this.props.data.contentfulPortfolio.description.description}</p>
+        <p></p>
    </div>
     )
   }
